@@ -1,0 +1,30 @@
+{
+	id: "0000000000"
+	environments:[
+		{
+			name: "Living Room"
+			devices: [
+				{
+					name: "Speaker",
+					settings: [
+						{
+							settingName: "Song",
+							settingValue: "Darude - Sandstorm"
+						}]
+				},
+				{
+					name: "Lights",
+					settings: [
+						{
+							settingName: "Color",
+							settingValue: "Red"
+						},
+						{
+							settingName: "Intensity",
+							settingValue: "50%"
+						}]
+				}]
+
+		}]
+
+}
