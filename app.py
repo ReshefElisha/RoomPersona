@@ -7,6 +7,8 @@ from bson import json_util
 app = Flask(__name__)
 mongo = PyMongo(app)
 
+mongo.db.users.insert({'id':"0000000000", 'online':True})
+
 @app.route('/')
 def home():
 	mongo.db.users.insert({'id':"0000000000", 'online':True})
